@@ -1,0 +1,138 @@
+/*Configurações*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --deglinha: linear-gradient(
+        to left,
+        #00000060,
+        #0000003a,
+        #0000003a,
+        #00000000,
+        #00000000
+    )
+}
+
+ 
+main {
+    max-width: 100;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+/*Lado esquerdo do site*/
+.degrade{
+  
+ background-image: linear-gradient(to right, #74e524d2,#74e52452,#74e52400);
+ position: absolute;
+width: 720px;
+height: 100%;
+left: 0px;
+top: 0px;
+
+
+}
+
+.degrade .logo{
+position: absolute;
+width: 255.48px;
+height: 233px;
+left: 80px;
+top: 9px;
+
+
+
+}
+.degrade .Pessoa{
+    position: absolute;
+    width: 592.6px;
+    height: 580.62px;
+    left: 82px;
+    top: 350px;
+    
+    
+    }
+
+/*Menu*/
+nav{
+  
+    text-align: right;
+    margin-top: 0px;
+    padding: 2rem;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-image: var(--deglinha) 1;
+
+
+    
+}
+
+nav a {
+    color: #49A10A;
+    text-decoration: none;
+    padding: 0px 80px 10px 0;
+    font-size: 29pt;
+ 
+}
+
+
+
+
+
+
+
+
+
+/*Texto*/
+.texto {
+position: absolute;
+text-align: center;
+margin-left: 55%;
+padding: 10;
+font-size: 45pt;
+width: 800px;
+height: 100%;
+
+}
+
+
+.texto a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 80px;
+    background-color: #368300;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+.texto h2{
+
+   color: #63C81B;
+  
+}
+
+.texto h3{
+   color: #49A10A;
+}
+
+
+.texto p{
+    font-size: 36pt;
+}
+

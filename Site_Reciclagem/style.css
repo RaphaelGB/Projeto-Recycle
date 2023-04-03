@@ -1,0 +1,63 @@
+**{
+      margin: 0;
+      padding: 0;
+}
+#Name1{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 44px;
+      text-align: center;
+      
+      color: #63C81B;
+}
+#FotoNM1{
+      width: 80%;
+}
+/* More questions */
+h3.More-Questions{
+      color: #63C81B;
+}
+/* Other Questions */
+#Other-Questions{
+      border: 2.5px solid#535353;
+      border-radius: 10px;
+}
+#Input-Other-Questions{
+
+}
+h3.Title-Questions{
+      color: #5ea62a; 
+      font-size: 58px;
+      margin-left: 7%;
+
+      
+}
+#ul-Question{
+      width: 100%;
+      border: 2px solid #818181;
+}
+.Q1, .Q2, .Q3, .Q4, .Q5{
+      margin-bottom: 0.5%;
+}
+.degrade{
+  
+      background-image: linear-gradient(to top, #74e524d2,#74e52452,#74e52400);
+   position: relative;
+     width: 100%;
+     height: 100%;
+     left: 0px;
+     top: 0px;
+     
+     
+     }
+
+     html{
+      background: #74e524d2 ;
+}
+h1.title-cards{
+      color: #63c81b;
+      font-size: 72px;
+}
+     
